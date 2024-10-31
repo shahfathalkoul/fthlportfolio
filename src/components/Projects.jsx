@@ -1,6 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import { Blog_App, Weather_App, CRUD_App, Js_Projects, Portfolio } from "../assets/images/index.js"
+import { Weather_App, CRUD_App,  Portfolio,  } from "../assets/images/index.js"
+import crypto from '../assets/newIMG/crypto.png'
+import calendar from '../assets/newIMG/calendar.png'
+import Yt from '../assets/newIMG/yt.png'
+import ainaz from '../assets/newIMG/ainaz.png'
+
+
+
 
 function Projects() {
   const [visible,setVisible] = useState(0);
@@ -8,16 +15,16 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      image: Blog_App,
-      imageAlt: "Blog App",
-      name: "Blog App",
-      description: "Write your thoughts and publish them online on a secure and easy-to-use platform.",
+      image: crypto,
+      imageAlt: "Crypto Manager",
+      name: "Crypto Manager",
+      description: "Trade Crypto here",
       links: {
-        gitHub: "https://github.com/talhashah-dev/blogging-app",
-        hosted: "https://talhashah-dev.github.io/blogging-app/"
+        gitHub: "https://github.com/shahfathalkoul/crypto-manager",
+        hosted: "https://shahfathalkoul.github.io/crypto-manager/"
       },
       tags: [
-        "html", "css", "javascript", "firebase"
+        "html", "css", "javascript"
       ]
     },
     // {
@@ -36,27 +43,27 @@ function Projects() {
     // },
     {
       id: 3,
-      image: Portfolio,
-      imageAlt: "Portfolio",
-      name: "Portfolio",
-      description: "Personal Portfolio built with React.js & Tailwind CSS",
+      image: ainaz,
+      imageAlt: "Ainaz",
+      name: "Ainaz",
+      description: "A Fashion Brand website built with React.js , Tailwind CSS, Node js & Express",
       links: {
-        gitHub: "https://github.com/talhashah-dev/portfolio",
-        hosted: "https://talhashah.vercel.app/"
+        gitHub: "https://github.com/shahfathalkoul/ainaz_frontend",
+        hosted: "https://ainaz-frontend.vercel.app/"
       },
       tags: [
-        "react", "tailwind", "javascript"
+        "react", "tailwind", "javascript", "Node","Express"
       ]
     },
     {
       id: 4,
-      image: Weather_App,
-      imageAlt: "React Weather App",
-      name: "Weather App",
-      description: "A Weather App built with React.js and OpenWeatherMap API",
+      image: calendar,
+      imageAlt: "React Calendar App",
+      name: "Calendar App",
+      description: "A Calendar App built with React.js and OpenWeatherMap API",
       links: {
-        gitHub: "https://github.com/talhashah-dev/weather-app-react",
-        hosted: "https://weather-app-react-st.netlify.app/"
+        gitHub: "https://github.com/shahfathalkoul/calendar",
+        hosted: "https://calendar-amber-five.vercel.app/"
       },
       tags: [
         "react", "css", "api"
@@ -64,16 +71,16 @@ function Projects() {
     },
     {
       id: 5,
-      image: CRUD_App,
-      imageAlt: "CRUD App",
-      name: "CRUD App",
-      description: "A CRUD operation Web App built with React.js and Bootstrap for UI and Mockapi as the DB.",
+      image: Yt,
+      imageAlt: "YT Music",
+      name: "YT Music",
+      description: "Youtube Music clone Web App built with React.js and Bootstrap for UI",
       links: {
-        gitHub: "https://github.com/talhashah-dev/react-crud-app",
-        hosted: "https://react-crud-app-gilt.vercel.app/"
+        gitHub: "https://github.com/shahfathalkoul/End-Sem-Project-YouTube-Music-Clone---EndSem-Project-YouTube-Music-Clone---6mioiahnnlag",
+        hosted: "https://end-sem-project-you-tube-music-clone.vercel.app/"
       },
       tags: [
-        "react", "bootstrap", "api"
+        "react", "bootstrap"
       ]
     },
   ]

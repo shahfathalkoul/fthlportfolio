@@ -8,18 +8,16 @@ function Contact(){
         <p className="text-gray-400 text-base">
           DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.
         </p>
-        <a href="tel:+923349009827" className="text-gray-400 text-2xl hover:text-white">+92-3349009827</a>
-        <a href="mailto:syedt.in00@gmail.com" className="text-gray-400 text-2xl hover:text-white">syedt.in00@gmail.com</a>
+        <a href="tel:+923349009827" className="text-gray-400 text-2xl hover:text-white">+91-9541599566</a>
+        <a href="mailto:syedt.in00@gmail.com" className="text-gray-400 text-2xl hover:text-white">fthlkoul@gmail.com</a>
         <div className="flex justify-center gap-5 mt-10">
-          <a href="https://github.com/talhashah-dev" target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >
+          <a href="https://github.com/shahfathalkoul" target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/talhashah-dev/" target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >
+          <a href="https://www.linkedin.com/in/shah-fathal-koul-54b3092b8/" target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >
             <FaLinkedin />
           </a>
-          <a href="https://stackoverflow.com/users/23691689/talha-shah" target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >
-            <FaStackOverflow />
-          </a>
+         
         </div>
       </div>
   )

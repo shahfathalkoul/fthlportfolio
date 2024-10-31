@@ -50,11 +50,11 @@ function Navbar({sendDataToParent}) {
               </a>
             </li>
             
-            <li>
+            {/* <li>
               <a href="#certificates" className={`inline-block w-full text-[#7e9199] hover:text-white max-md:hover:border-none max-md:active:bg-purple-500 max-md:active:text-white max-md:px-2 hover:border-b pb-1 text-lg`} onClick={() => handleLinkClick()}>
                 Certificates
               </a>
-            </li>
+            </li> */}
             
             <li>
               <a href="#contact" className={`inline-block w-full text-[#7e9199] hover:text-white max-md:hover:border-none max-md:active:bg-purple-500 max-md:active:text-white max-md:px-2 hover:border-b pb-1 text-lg`} onClick={() => handleLinkClick()}>
